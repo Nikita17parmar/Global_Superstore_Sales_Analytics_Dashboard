@@ -17,6 +17,28 @@ The dashboard helps businesses monitor key metrics, identify high-performing pro
 - Business Intelligence
 
 
+## Project Workflow
+
+1. Data Collection
+   - Used Global Superstore dataset containing sales, customer, and shipping data.
+
+2. Data Cleaning & Transformation
+   - Cleaned and prepared data using SQL.
+   - Handled missing values and ensured data consistency.
+
+3. Data Modeling
+   - Designed a Star Schema with fact and dimension tables.
+
+4. Data Analysis
+   - Created DAX measures to calculate KPIs and performance metrics.
+
+5. Visualization
+   - Built interactive dashboards using Power BI.
+
+6. Insights & Recommendations
+   - Generated business insights and actionable recommendations.
+
+
 ## Data Model
 
 A Star Schema data model was designed to optimize analytical queries.
@@ -42,15 +64,15 @@ The Power BI report contains four analytical pages:
    - Key KPIs such as Total Sales, Total Profit, Total Orders
    - Regional sales distribution
 
-2. Product Performance
+2. Product Analysis/Performance
    - Top performing products and categories
    - Profitability analysis
 
-3. Customer Insights
+3. Customer Analysis/Insights
    - Customer segmentation
    - Revenue per customer analysis
 
-4. Shipping & Logistics
+4. Shipping & Operations
    - Delivery performance metrics
    - Shipping mode analysis
 
@@ -71,19 +93,35 @@ The Power BI report contains four analytical pages:
 - Analyzed regional sales distribution to identify strong and weak markets.
 - Evaluated shipping efficiency and delivery performance trends.
 
+## Business Recommendations
 
+Based on the analysis, the following actions are recommended:
+
+- Focus on high-value customers by introducing loyalty programs and targeted marketing campaigns.
+- Optimize underperforming regions by reviewing pricing strategies and product availability.
+- Improve shipping efficiency by promoting faster shipping modes for high-priority customers.
+- Increase profitability by prioritizing high-margin products and reducing discounts on low-margin items.
+
+
+## Demo
+
+- Download the PBIX file from the repository
+- Open using Power BI Desktop
+- Explore interactive dashboards using filters and slicers
+
+  
 ## Dashboard Preview
 
-### Sales Overview
+### Executive Overview
 ![Executive Overview](screenshots/Executive_Overview.png)
 
-### Profit Analysis
+### Product Analysis
 ![Product Analysis](screenshots/Product_Analysis.png)
 
-### Shipping Performance
+### Customer Analysis
 ![Customer Analysis](screenshots/Customer_Analysis.png)
 
-### Regional Sales Map
+### Shipping & Operations
 ![Shipping & Operations](screenshots/Shipping_&_Operations.png)
 
 
