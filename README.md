@@ -7,6 +7,11 @@ This project presents an end-to-end Business Intelligence solution built using S
 The dashboard helps businesses monitor key metrics, identify high-performing products and customers, analyze regional sales trends, and evaluate shipping efficiency to support data-driven decision making.
 
 
+## Business Problem
+
+Retail businesses need to monitor sales, profit, and operational performance across regions, products, and shipping modes.
+This project was built to identify trends, top-performing categories, and areas needing improvement.
+
 ## Tools & Technologies
 
 - SQL
